@@ -21,3 +21,9 @@ docker run -d --name=my_container ubuntu sleep 15:
 creates a container that runs in the background
 
 node -v checks node version
+
+after ps -a
+docker commit -a iamnawa 0358 ubuntu-node:0.1
+-a is author, and then the 4 numbers are the first four numbers
+of the container, you do not need to write the whole ID
+Then name it, in this case I used the name ubuntu-node and 0.1
