@@ -37,3 +37,7 @@ sudo npm install -g express-generator
 AFTER installing express microservice,
 npm i
 npm start
+
+Then pwd to locate microservice
+docker run -it -v /Users/paul/desktop/dockerprac/my_microservice
+i and t are put together... -v is volumes, then directory
