@@ -15,3 +15,8 @@ apt-get install --yes nodejs-legacy
 apt-get install --yes npm
 
 docker ps will show all running containers
+
+docker run -d --name=my_container ubuntu sleep 15:
+creates a container that runs in the background
+
+node -v checks node version
