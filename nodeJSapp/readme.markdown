@@ -7,3 +7,7 @@ Docker Container- Created from docker images and are real instances of our appli
 Docker Daemon: Building, running and distributing Docker containers
 Docker Client- Run on our local machine and connect to the Daemon
 Docker Hub- A registry of docker images
+
+
+Start an ubuntu container:
+docker run -i -t ubuntu ./bin/bash
