@@ -45,3 +45,6 @@ i and t are put together... -v is volumes, then directory... -p for port 9000 to
 cp -r /host /microservice
 copies host into a folder called microservice
 NOW microservice is running in a docker container
+
+RUNS in background
+docker run -d -w /microservice -p 9000:3000 node-microservice:0.1 npm start
