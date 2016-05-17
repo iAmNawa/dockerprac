@@ -33,3 +33,7 @@ Then name it, in this case I used the name ubuntu-node and 0.1
 
 NEXT MAKE SURE NODE AND EXPRESS ARE INSTALLED
 sudo npm install -g express-generator
+
+AFTER installing express microservice,
+npm i
+npm start
