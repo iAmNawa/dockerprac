@@ -39,5 +39,9 @@ npm i
 npm start
 
 Then pwd to locate microservice
-docker run -it -v /Users/paul/desktop/dockerprac/my_microservice
-i and t are put together... -v is volumes, then directory
+docker run -it -v /Users/paul/desktop/dockerprac/my_microservice:/host -p 9000:3000 ubuntu-node:0.1 /bin/bash
+i and t are put together... -v is volumes, then directory... -p for port 9000 to 3000 NAME:ubuntu-node /bin/bash
+
+cp -r /host /microservice
+copies host into a folder called microservice
+NOW microservice is running in a docker container
