@@ -55,3 +55,5 @@ docker tag <image name:0.1> <image name:latest>
 docker tag node-microservice:0.1 node-microservice:latest
 
 then: docker tag node-microservice iamnawa/node-microservice
+
+finally docker push iamnawa/node-microservice
