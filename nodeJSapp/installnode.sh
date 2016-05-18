@@ -48,3 +48,7 @@ NOW microservice is running in a docker container
 
 RUNS in background
 docker run -d -w /microservice -p 9000:3000 node-microservice:0.1 npm start
+
+Then login to docker in terminal
+ADD A TAG:
+docker tag <image name:0.1> <image name:latest>
