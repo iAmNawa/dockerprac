@@ -7,3 +7,6 @@ Creating web app with Docker
 #install docker compose
 apt-get curl and then install docker-compose, make docker-compose an executable and
 move it to /usr/local/bin
+
+#run busybox
+docker run -it --rm busybox:latest
